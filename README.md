@@ -56,7 +56,7 @@ while our target is closer to
 
 $$
 A_{\mathrm{ours}}
-=\arg\min_A J_{\mathrm{system}}\!\left(A,\operatorname{Planner}(A),\mathcal E\right).
+=\arg\min_A J_{\mathrm{system}}\!\left(A,\mathrm{Planner}(A),\mathcal E\right).
 $$
 
 OM should therefore be treated as a **high-quality pairwise baseline**, not as an interaction-aware solution.
