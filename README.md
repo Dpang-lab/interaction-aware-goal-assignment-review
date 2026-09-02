@@ -3,11 +3,6 @@
 > **Paper:** Aakash and Indranil Saha, “Optimal Makespan in a Minute Timespan! A Scalable Multi-Robot Goal Assignment Algorithm for Minimizing Mission Time,” *AAAI 2024*, pp. 10280–10287.  
 > **Links:** [Official paper page](https://ojs.aaai.org/index.php/AAAI/article/view/28894) · [DOI](https://doi.org/10.1609/aaai.v38i9.28894) · [Authors' implementation](https://github.com/iitkcpslab/H-Scalable-MRGA-Makespan.git)
 
-## Reviews in this repository
-
-- **OM / Optimal Makespan in a Minute Timespan:** this README
-- **Hyper-SAMARL:** [Hypergraph-Based Coordinated Task Allocation and Socially-Aware Navigation](hyper-samarl-review.md)
-
 ## Short verdict
 
 OM is a strong baseline for our project because it solves **one-shot, obstacle-aware goal assignment** for hundreds of robots while retaining exact optimality for its chosen objective. Its limitation is equally important: every robot–goal pair is evaluated independently, so the assignment does not anticipate congestion, path crossings, corridor competition, or collision-resolution delay.
